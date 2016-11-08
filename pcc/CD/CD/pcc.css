@@ -1,0 +1,153 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.pull-right{
+    float: right;
+    padding-right: 10px;
+}
+
+body {
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    width: 970px;
+    height: auto;
+    background: radial-gradient(#484846,#3A3A38,#000000);
+}
+
+#header {
+    /*background-color: #E8E8E8;*/
+    background: linear-gradient(#E8E8E8,#FFFFFF);    
+    vertical-align: middle;
+    height: 68px;
+    line-height: 68px;
+    width: 100%;
+}
+
+#nav{
+    /*background-color: #ECECEC;*/
+    background: linear-gradient(#EFF2F4,#E8ECF0); 
+    color:#706D69;
+    width: 955;
+    display: inline-block;
+    margin: 0;
+    padding: 0 0 0 15;
+    list-style: none;
+    border-bottom: 1px solid #ccc; 
+    border-top: 1px solid #ccc;
+}
+
+#nav li {
+    float: left;
+    text-decoration: none;  
+}
+
+#nav li a {
+    display: block;
+    padding: 5px 15px 5px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #6D7078;
+    border-right: 1px solid #ccc; 
+}
+
+ul {
+    list-style: none;
+}
+
+#content {
+    display: inline-block;
+    width: 100%;
+    height: 900px;
+    color: white;
+    vertical-align: top;
+}
+
+#content img {
+    border: solid white 5px;
+}
+
+#about {
+    width: 520px;
+    border:solid #373737 1px;
+}
+
+#about_pc {
+  height: 248px;
+}
+
+.panel {
+    display: inline-block;
+    vertical-align: top;
+    width: auto;
+    height: auto;
+    margin: 15 0 15 15;
+}
+
+.panel_header{
+    background-color: #FAD23F;
+    color: black;
+    font-weight:bold;
+    border-bottom: solid black 1px;
+    font-size:9pt;
+    padding:2px;
+}
+
+.panel_contents {
+    /*background-color: lightgrey;*/
+    background: linear-gradient(to right,#70706F,#373737); 
+    height: auto;
+    font-size: 9.5pt;
+}
+.panel_info_contents {
+    /*background-color: lightgrey;*/
+    background: linear-gradient(#FFFFFF,#FFF4DE); 
+    height: auto;
+    font-size: 7.5pt;
+    color:black;
+    padding-bottom:30px;
+
+}
+
+.panel_contents p, h4{
+ padding:7px;   
+}
+
+#spacer {
+    padding-left: 20px;
+    color: #FAD23F;
+}
+
+#spacer img {
+    width: 75px;
+    border: none;
+}
+#small_text {
+font-size: 7pt;
+color:#FAD23F; 
+}
+
+#info {
+    margin-top: 0px;
+}
+
+.info-box {
+    width: 220px;
+    height: 150px;
+
+}
+
+#info .panel_info_contents img {
+    border: none;
+    width: 220px;
+}
+
+
+.yellow_arrow {
+background-color:#FDC700;
+border:2px solid; 
+font-weight: bold;
+font-size:8pt;
+padding:3px;
+}     
