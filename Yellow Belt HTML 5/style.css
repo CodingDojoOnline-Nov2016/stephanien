@@ -1,0 +1,145 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #1A1A1A;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8.5pt;
+    width: 976px;
+    padding: 5px;
+    margin: auto;
+}
+
+.pull-right {
+    float: right;
+    padding-right: 10px;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.large {
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+.grey {
+    color: #cfcfcf;
+}
+
+#header {
+    text-align: left;
+    color: #cfcfcf;
+    line-height: 50px;
+}
+
+#navbar .active {
+    color: white;
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background: linear-gradient(#525252,#282828);
+    }
+
+#navbar li {
+    float: left;
+}
+
+#navbar li a {
+    display: block;
+    color: #6e6e6e;
+    text-align: center;
+    border-right: solid 1px #3B3B3B;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navbar li .children:after {
+   content: ' \f101';
+   font-family: FontAwesome;
+   font-weight: normal;
+   font-style: normal;
+}
+
+#navbar li:last-child a {
+    border-right: none;
+}
+
+.main-pic {
+    border-bottom: solid 4px #3B3B3B;
+}
+
+#buy {
+    background-color: #0F0F0F;
+    padding: 0px 15px 15px 15px;
+    vertical-align: text-top;
+    text-align: left;
+}
+
+#buy-text {
+    display: inline-block;
+    width: 750px;
+}
+
+#buy-button {
+    float: right;
+    margin-top: 25px;
+    margin-right: 20px;
+    height: 38px;
+    line-height: 38px;
+}
+
+button {
+    background-color: #EF8535;
+    border-radius: 5px;
+    padding: 4px 10px 4px 10px;
+    border: solid 1px #EF8535;
+    color: white;
+    font-size: 9pt;
+    font-weight: bold;
+}
+
+.orange-text {
+    color: #EF8535;
+}
+
+.serif {
+    font-family: serif;
+}
+
+.info {
+    display: inline-block;
+    vertical-align: top;
+    width: 220px;
+    padding: 15px 0px 30px 15px;
+}
+
+.info .icon {
+    display: inline-block;
+    text-align: left;
+    width: 30px;
+    padding: 0px 12px 5px 5px;
+    vertical-align: top;
+}
+
+.info .info-text {
+    display: inline-block;
+    padding-left: 5px;
+    width: 160px;
+    text-align: left;
+    vertical-align: top;
+}
+
+#portfolio {
+    text-align: left;
+    padding: 25px 5px 5px 10px;
+}
+
+#portfolio .info img {
+    border: solid 4px #333132;
+}
