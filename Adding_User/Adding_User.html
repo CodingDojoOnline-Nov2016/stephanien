@@ -12,6 +12,8 @@
                 var contact = $("#contact_no").val();
                 var markup = "<tr><td>" + Name + "</td><td>" + Surname + "</td><td>" + emailadd + "</td><td>" + contact + "</td></tr>";
                 $("table tbody").append(markup);
+
+                document.getElementById("form_input").reset();
             });
         });
     </script>
@@ -39,13 +41,13 @@
 
 
     <h1>Add User</h1>
-    <form>
+    <form id="form_input">
         First Name:<br>
-        <input type="text" id="firstname" placeholder="firstname"><br> Last Name:<br>
-        <input type="text" id="lastname" placerholder="lastname"><br> Email:
+        <input type="text" id="firstname" placeholder="First Name"><br> Last Name:<br>
+        <input type="text" id="lastname" placerholder="Last Name"><br> Email:
         <br>
-        <input type="text" id="email" placerholder="email"><br> Contact No:<br>
-        <input type="text" id="contact_no" placeholder="Contact No"><br>
+        <input type="text" id="email" placerholder="Email"><br> Contact No:<br>
+        <input type="text" id="contact_no" placeholder="Phone Number"><br>
         <input type="button" class="add_user" value="Add User">
     </form><br>
 </body>
