@@ -1,0 +1,53 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="Adding_user.css" />
+    <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $(".add_user").click(function() {
+                var Name = $("#firstname").val();
+                var Surname = $("#lastname").val();
+                var emailadd = $("#email").val();
+                var contact = $("#contact_no").val();
+                var markup = "<tr><td>" + Name + "</td><td>" + Surname + "</td><td>" + emailadd + "</td><td>" + contact + "</td></tr>";
+                $("table tbody").append(markup);
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <table class="contact_table">
+        <thead>
+            <tr>
+                <th> First Name </th>
+                <th>Last Name</th>
+                <th>Email</th>
+                <th>Contact No</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Stephanie</td>
+                <td>Neuenschwander</td>
+                <td>stephneu@live.com</td>
+                <td>415-619-2519</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <h1>Add User</h1>
+    <form>
+        First Name:<br>
+        <input type="text" id="firstname" placeholder="firstname"><br> Last Name:<br>
+        <input type="text" id="lastname" placerholder="lastname"><br> Email:
+        <br>
+        <input type="text" id="email" placerholder="email"><br> Contact No:<br>
+        <input type="text" id="contact_no" placeholder="Contact No"><br>
+        <input type="button" class="add_user" value="Add User">
+    </form><br>
+</body>
+
+</html>
